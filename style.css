@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(255, 255, 255);
+}
+
+li{
+    padding-left: 2vw;
+}
+
+.logoo {
+    border-radius: 4px;
+    max-width: 5vw;
+}
+
+.zone_2 {
+   text-align: center;
+   font-size: 1.;
+}
+
+
+
+.tout_les_points {
+    margin-left: 1vw;
+    height: 7vw;
+}
+
+.TopBar{
+    border-radius: 1vw;
+    height: 5vw;
+    background-color: rgb(227, 230, 233);
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+}
+
+.acheter_button button{
+    margin-top: match-parent;
+    margin-right: 10px;
+    height: 3vw;
+}
+
+.texteImage {
+    background-color: rgb(227, 230, 233);
+    align-items: center;
+    display: flex;
+    font-size:xx-large;
+}
+
+.texteSurImage{
+    width: 30vw;
+    font-size: 200%;
+    position: absolute;
+    z-index:2;
+    top: 1100px;
+}
+
+.zone_4 {
+    display: flex;
+    justify-content: center;
+ }
+
+
+.Table {
+    width: 100vw;
+}
+
+.zone_5 {
+    border-radius:1vw;
+    height: 5vw;
+    background-color: rgb(227, 230, 233);
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.twi {
+  width: 50px;
+}
+
+.ins {
+    width: 50px;
+}
+
+.fac {
+    width: 50px;
+}
+
+.you {
+    width: 50px;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .TopBar {
+        width: 100%;
+    }
+}
